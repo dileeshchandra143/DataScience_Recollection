@@ -25,10 +25,10 @@ def scalar_multiply(c, v):
 
 # has to be imported from __future__ import division
 def vector_mean(vectors):
-    """compute the vector whose i-th element is the mean of the
-    i-th elements of the input vectors"""
-    n = len(vectors)
-    return scalar_multiply(1/n, vector_sum(vectors))
+    """compute the vector whose i-th element is the mean of the i-th elements of the input vectors"""
+    
+n = len (vectors)
+ return scalar_multiply(1/n, vector_sum(vectors))
 
 
 
