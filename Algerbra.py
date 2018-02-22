@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt # pyplot
 from collections import defaultdict, Counter
 from functools import partial
 
-# 
-# functions for working with vectors
-#
+
+########## Vector functions ##############
+
 
 def vector_add(v, w):
     """adds two vectors componentwise"""
@@ -50,9 +50,9 @@ def squared_distance(v, w):
 def distance(v, w):
    return math.sqrt(squared_distance(v, w))
 
-#
-# functions for working with matrices
-#
+
+############# Matrices Functions ####################
+
 
 def shape(A):
     num_rows = len(A)
